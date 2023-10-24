@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    font-family: 'Jost', sans-serif; /* Используйте шрифт Jost для меню */
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.header-left h1 {
+    font-family: 'Oswald', sans-serif; /* Используйте шрифт Oswald для имени */
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.header-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-right li {
+    margin-right: 20px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    transition: color 0.5s, border-bottom 0.3s;
+}
+
+.header-right a:hover {
+    color: #ff69b4;
+    border-bottom: 2px solid #ff69b4;
+    transition: color 0.5s, border-bottom 0.3s;
+}
+
+/* Добавьте другие стили и анимации по вашему усмотрению */
